@@ -1,0 +1,93 @@
+<DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link href="dry.css" rel="stylesheet">
+<title>Fayeeza</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" id="fan">
+    <a class="navbar-brand" href="#"><img src="https://static.vecteezy.com/system/resources/thumbnails/002/383/909/small/set-of-cake-and-bakery-logo-free-vector.jpg" height="50"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        
+      <form class="d-flex">
+        <input class="form-control me-2" type="number"  aria-label="Search">
+        <button class="btn btn-outline-success" type="number">Contact<img src="data:image/png;base64,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" height="50"></button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container">
+<div class="box">
+<p id="para1">BIG SALE UPTO</p>
+ 50% Offer
+</div>
+</div>
+<div class="row">
+<div class="col-4">
+<div class="card" style="width: 18rem;" id="form">
+  <img src="https://4.imimg.com/data4/TT/IK/IMOB-11906735/image-500x500.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Pasteries</h5>
+    <p class="card-text">It has know become our latest food</p>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+</div>
+<div class="col-4">
+<div class="card" style="width: 18rem;" id="tall">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtc2o_OarcOSOh9IdRUDUM6HLnw4nfxlDY7Q&usqp=CAU" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Pasteries</h5>
+    <p class="card-text">It has know become our latest food</p>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+</div>
+<div class="col-4">
+<div class="card" style="width: 18rem;" id="tall">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRloEiinBkM_Gy87gqIU9vNIYI2zRvBBfUUNw&usqp=CAU" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Pasteries</h5>
+    <p class="card-text">It has know become our latest food</p>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+</div>
+</div>
+<div class="row" id="tazeen">
+<div class="col-8"> 
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" id="fb"> 
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" id="twi"> 
+         <img src="https://cdn-icons-png.flaticon.com/512/174/174863.png" id="pin"> 
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" id="inst"> 
+        </div>  
+</div>     
+             
+
+
+
+</body>
+</html>
